@@ -31,11 +31,11 @@ export default function BeanieDetail() {
           <Link to="/">Home</Link>
           <div className="beanie-detail" onClick={handleBeanieClick}>
             <div className="beanie-data">
-              <p>{beanieBaby.animal}</p>
+              <img className="beanie-img" src={beanieBaby.image} />
               <p>{beanieBaby.title}</p>
+              <p>{beanieBaby.animal}</p>
               <p>Zodiac: {beanieBaby.astroSign}</p>
               <p> Born on {beanieBaby.birthday}</p>
-              <img className="beanie-img" src={beanieBaby.image} />
               <p>Color: {beanieBaby.color}</p>
               <p>Release Date: {beanieBaby.releaseDate}</p>
               <p>Retirement Date: {beanieBaby.retirementDate}</p>

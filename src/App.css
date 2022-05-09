@@ -6,11 +6,12 @@ body {
 .App {
   width: 80%;
   margin: 0 auto;
-  background-color: white;
+  background-color: rgb(202, 253, 179);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: dotted 5px lightsalmon;
 }
 
 .beanie-baby {
@@ -49,7 +50,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: pink;
+  background-color: lightcoral;
   border-radius: 20px;
   margin: 10px;
   padding: 20px;
@@ -67,4 +68,5 @@ body {
   align-items: center;
   margin: 5px;
   padding: 10px;
+  border: solid 2px black;
 }
