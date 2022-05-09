@@ -1,6 +1,6 @@
 body {
- background-image: url(./bg.png);
- background-size: 30%;
+  background-image: url(./bg.png);
+  background-size: 30%;
 }
 
 .App {
@@ -17,8 +17,8 @@ body {
   margin: 20px;
 }
 
-.beanie-baby .beanie-img {
-  width: 200px;
+.beanie-baby {
+  width: 100px;
 }
 
 .beanies {
@@ -37,7 +37,7 @@ body {
 
 .beanie-detail img {
   cursor: pointer;
-  width: 400px;
+  width: 100px;
 }
 
 .beanie-detail .beanie-data {
@@ -53,4 +53,18 @@ body {
   border-radius: 20px;
   margin: 10px;
   padding: 20px;
+}
+
+.beanie-baby-list-image {
+  width: 150px;
+}
+
+.beanie-baby-list-item {
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 10px;
 }

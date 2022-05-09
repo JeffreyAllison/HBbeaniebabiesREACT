@@ -47,7 +47,7 @@ export default function BeanieDetail() {
               <p>Swing Tag Generation: {beanieBaby.swingTagGeneration}</p>
               <p>Tush Tag Generation: {beanieBaby.tushTagGeneration}</p>
             </div>
-          </div>{' '}
+          </div>
         </>
       }
     </>
