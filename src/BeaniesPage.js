@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <h2>
-        Page {currentPage} of 53 of this <i>intimidating list</i> of Beanie BabiesTM
+        Page {currentPage} of 53 of this <i>intimidating list</i> of Beanie BabiesTY
       </h2>
       <div className="buttons">
         {/* on click, this button should decrement the page in state  */}
