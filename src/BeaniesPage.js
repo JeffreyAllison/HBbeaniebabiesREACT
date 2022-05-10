@@ -22,7 +22,9 @@ function App() {
 
   return (
     <>
-      <h2>Current Page {currentPage}</h2>
+      <h2>
+        Page {currentPage} of 53 of this <i>intimidating list</i> of Beanie BabiesTM
+      </h2>
       <div className="buttons">
         {/* on click, this button should decrement the page in state  */}
         {/* also, disable this button when you are on the first page */}

@@ -6,7 +6,7 @@ body {
 .App {
   width: 80%;
   margin: 0 auto;
-  background-color: rgb(202, 253, 179);
+  background-color: rgb(219, 237, 233);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,7 +38,10 @@ body {
 
 .beanie-detail img {
   cursor: pointer;
-  width: 100px;
+  width: 200px;
+  margin-left: 30px;
+  border-radius: 20px;
+  border: solid 5px lightcoral;
 }
 
 .beanie-detail .beanie-data {
@@ -58,6 +61,8 @@ body {
 
 .beanie-baby-list-image {
   width: 150px;
+  border: solid 5px lightcoral;
+  border-radius: 20px;
 }
 
 .beanie-baby-list-item {
